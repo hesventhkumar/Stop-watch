@@ -1,0 +1,73 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+    background-color: rgb(182, 182, 255);
+
+}
+
+p{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+}
+.container{
+    background-color: rgb(52, 52, 52);
+    padding: 100px 50px 100px 50px ;
+    border-radius: 10px;
+    
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: rgb(72, 72, 117);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.display {
+    font-size: 2px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 80px;
+}
+
+
+
+.controls button:active {
+    background:rgb(243, 99, 63);
+}
+
+.laps {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.lap {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.controls button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    color: black;
+}
